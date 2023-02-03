@@ -1,0 +1,73 @@
+.container{
+    /* background-color: aqua; */
+    /* min-width: 100vh; */
+    /* min-height: 90vh; */
+    margin: 0px;
+    padding: 0px;
+    /* display: flex; */
+}
+
+.card{
+    width: calc(100% - 2px);
+    display: flex;
+    position: relative;
+}
+  
+.price{
+    display:grid ;
+}
+
+.card-title{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+.card-text{
+    margin:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+}
+
+.period{
+    font-size: 12px;
+}
+
+li{
+    margin-bottom: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul li:before {
+    content: "✓ ";
+    font-weight: bold;
+}
+
+.wrong li:before {
+content: "X ";
+}
+
+.for-bold{
+    font-weight: bold;
+}
+
+.row{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.block{
+    width: 100%;
+    border-radius: 20px;
+}
+
